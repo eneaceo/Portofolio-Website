@@ -2,37 +2,82 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 <BaseLayout>
+
   <div class="portfolio-container">
 
-    <div class="portfolio-item">
-      <div class="item-text">
-        <p>GBA Game done with Butano Engine</p>
-        <p>I "ported" one of my favorite band's albums to GBA. This can be played on a real Game Boy Advance.</p>
-          <div class="links-container">
-            <a href="https://millelire.itch.io/vaciador-vvv-gba" target="_blank" rel="noopener noreferrer">Itch.io Page</a>
-            <span>/</span>
-            <a href="https://github.com/eneaceo/GameBoyAdvance-Music-Player" target="_blank" rel="noopener noreferrer">Github Repository</a>
-            <span>/</span>
-            <a href="https://github.com/GValiente/butano" target="_blank" rel="noopener noreferrer">Butano Engine</a>
+  <div class="portfolio-item">
+    <div class="item-text">
+      <div class="sticker-container">
+        <div class="sticker" id="cpp-sticker">
+          <span class="sticker-text">C++</span>
+        </div>
+        <div class="sticker" id="unreal-sticker">
+          <span class="sticker-text">Unreal Engine</span>
+        </div>
       </div>
+      <p>
+        As a Game Programmer at Creek Games, I worked with Unreal Engine to develop 
+        gameplay mechanics and UI elements.
+      </p>
+        <div class="links-container">
+          <a href="https://www.youtube.com/watch?v=7wTJkRMwnQE" target="_blank" rel="noopener noreferrer">Teaser</a>
+          <span>/</span>
+          <a href="linktr.ee/FragmentsOfChild" target="_blank" rel="noopener noreferrer">More info</a>
+        </div>
+    </div>
+    <div class="item-image">
+      <img src="/src/assets/creekgames.jpg" class="game-image" loading="lazy"/>
+    </div>
+  </div>
+
+  <div class="portfolio-item">
+    <div class="item-text">
+      <div class="sticker-container">
+        <div class="sticker" id="cpp-sticker">
+          <span class="sticker-text">C++</span>
+        </div>
+        <div class="sticker" id="butano-sticker">
+          <span class="sticker-text">Butano Engine</span>
+        </div>
       </div>
-      <div class="item-image">
-          <img src="/vvv_vaciador.png" class="game-image" />
+      <p>
+        I "ported" one of my favorite band's albums to Game Boy Advance format using the Butano Engine.
+        While working on this project, I tried using various game design patterns to understand how they 
+        work and how to implement them. This is playable on an actual Game Boy Advance.
+      </p>
+      <div class="links-container">
+        <a href="https://millelire.itch.io/vaciador-vvv-gba" target="_blank" rel="noopener noreferrer">Itch.io Page</a>
+        <span>/</span>
+        <a href="https://github.com/eneaceo/GameBoyAdvance-Music-Player" target="_blank" rel="noopener noreferrer">Github Repository</a>
       </div>
     </div>
+    <div class="item-image">
+        <img src="/src/assets/vvv_vaciador.jpg" class="game-image" loading="lazy"/>
+    </div>
+  </div>
 
-    <div class="portfolio-item">
+  <div class="portfolio-item">
       <div class="item-text">
-        <p>Master's final project done with Unreal Engine</p>
-        <p>Lore Ipsum</p>
-          <div class="links-container">
-            <a href="https://www.youtube.com/watch?v=XLPVDHbuVe8" target="_blank" rel="noopener noreferrer">Trailer</a>
-            <span>/</span>
-            <a href="https://store.steampowered.com/app/2730020/Satori/" target="_blank" rel="noopener noreferrer">Steam Page</a>
-      </div>
+        <div class="sticker-container">
+          <div class="sticker" id="cpp-sticker">
+            <span class="sticker-text">C++</span>
+          </div>
+          <div class="sticker" id="unreal-sticker">
+            <span class="sticker-text">Unreal Engine</span>
+          </div>
+        </div>
+        <p>
+          This is my final master's project for the UPF Master's in Game Creation and Design.
+          We worked in a team using Unreal Engine and C++.
+        </p>
+        <div class="links-container">
+          <a href="https://www.youtube.com/watch?v=XLPVDHbuVe8" target="_blank" rel="noopener noreferrer">Trailer</a>
+          <span>/</span>
+          <a href="https://store.steampowered.com/app/2730020/Satori/" target="_blank" rel="noopener noreferrer">Steam Page</a>
+        </div>
       </div>
       <div class="item-image">
-          <img src="/satori.jpg" class="game-image" />
+          <img src="/src/assets/satori.jpg" class="game-image" loading="lazy"/>
       </div>
     </div>
 
