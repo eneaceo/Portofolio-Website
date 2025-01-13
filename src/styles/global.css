@@ -178,10 +178,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #333;
-}
-
 .portfolio-container {
   display: flex;
   flex-direction: column;
@@ -261,63 +257,67 @@ button:hover {
   font-size: 10px;
 }
 
-/* Apply specific styling for the resume section */
 .resume-container {
-  max-width: 800px;  /* Restrict the width for better readability */
-  padding: 20px;     /* Add padding around the content */
-  background-color: #333;  /* Darker background for the resume section */
-  border-radius: 10px;  /* Smooth corners for a modern look */
-  margin-top: 40px;    /* Add space from the top */
+  max-width: 800px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  margin-top: 40px;
 }
 
 h2, h3 {
-  color: #EB5E28;  /* Set a distinct color for headings */
-  text-transform: uppercase;  /* Make headings more prominent */
-  letter-spacing: 1px;  /* Add spacing between letters for headings */
+  color: #EB5E28;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h2 {
-  font-size: 2.5rem;  /* Increase the font size for main section heading */
-  margin-bottom: 1rem;  /* Space below the heading */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
-  font-size: 1.8rem;  /* Adjust the font size for subheadings */
-  margin-top: 1.5rem;  /* Add space above the subheading */
-  margin-bottom: 0.5rem;  /* Space below the subheading */
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 p {
-  font-weight: 200; /* Light font weight for paragraph text */
-  font-size: 1.1rem; /* Slightly larger font for readability */
-  line-height: 1.6;  /* Increase line height for more breathing room */
-  margin-bottom: 1rem; /* Space between paragraphs */
+  font-weight: 200;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
 }
 
 hr.horizontal-line-home {
   border: 0;
   height: 1px;
-  background-color: #EB5E28;  /* Matching the color to the theme */
-  margin: 1rem 0;  /* Spacing around the horizontal line */
+  background-color: #EB5E28;
+  margin: 1rem 0;
 }
 
 .sticker-container {
   display: flex;
-  flex-wrap: wrap;  /* Allow stickers to wrap */
-  gap: 1rem;  /* Space between stickers */
-  margin-top: 1rem; /* Add space above the stickers */
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .sticker {
   background-color: #252422;
-  padding: 10px 20px;
+  padding: 4px 10px;
   border-radius: 20px;
-  border: 2px solid #EB5E28;  /* Matching the color to the theme */
+  border: 2px solid #EB5E28;
 }
 
 .sticker-text {
   color: #FFFCF2;
-  font-size: 1rem;
-  font-weight: 300;
+  font-size: 0.75rem;
 }
 
+.resume-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
